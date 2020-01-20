@@ -1,5 +1,7 @@
 # Read me first ;)
 
+> Put all files and folders into `/app` folder
+
 ## Run
 
 ```
