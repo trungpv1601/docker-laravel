@@ -1,6 +1,6 @@
 # Read me first ;)
 
-> Put all files and folders into `/app` folder
+> Put all files and folders into `/www` folder
 
 ## Run
 

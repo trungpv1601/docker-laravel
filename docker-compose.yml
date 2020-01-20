@@ -7,7 +7,7 @@ services:
       dockerfile: app.dockerfile
     working_dir: /var/www
     volumes:
-      - ./app/:/var/www/
+      - ./www/:/var/www/
 
   # The Web Server
   web:
@@ -17,7 +17,7 @@ services:
     working_dir: /var/www
     volumes:
       - ./web/:/var/www/
-      - ./app/public:/var/www/public
+      - ./www/public:/var/www/public
     ports:
       - 8080:80
 
